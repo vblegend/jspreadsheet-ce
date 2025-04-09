@@ -15,7 +15,7 @@ import { getStyle, resetStyle, setStyle } from './style.js';
 import { page, quantiyOfPages, whichPage } from './pagination.js';
 import { download } from './download.js';
 import { down, first, last, left, right, up } from './keys.js';
-import { createNestedHeader, executeFormula, getCell, getCellFromCoords, getLabel, getWorksheetActive, hideIndex, showIndex } from './internal.js';
+import { createNestedHeader, getCell, getCellFromCoords, getLabel, getWorksheetActive, hideIndex, showIndex } from './internal.js';
 import { getComments, setComments } from './comments.js';
 import { orderBy } from './orderBy.js';
 import { getWorksheetConfig, setConfig } from './config.js';
@@ -656,7 +656,7 @@ const worksheetPublicMethods = [
         }
     }],
     ['paste', paste],
-    ['executeFormula', executeFormula],
+    // ['executeFormula', executeFormula],
     ['getDataFromRange', getDataFromRange],
     ['quantiyOfPages', quantiyOfPages],
     ['getRange', getRange],

@@ -10,12 +10,9 @@ class MyPlugin {
             // Get the bundled file content
             const fileContent = compilation.assets[fileName].source();
 
-            const header = `if (! jSuites && typeof(require) === 'function') {
+            const header = `
+if (! jSuites && typeof(require) === 'function') {
     var jSuites = require('jsuites');
-}
-
-if (! formula && typeof(require) === 'function') {
-    var formula = require('@jspreadsheet/formula');
 }
 
 ;(function (global, factory) {

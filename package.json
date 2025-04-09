@@ -47,7 +47,6 @@
         "datasheet"
     ],
     "dependencies": {
-        "@jspreadsheet/formula": "^2.0.2",
         "jsuites": "^5.8.5"
     },
     "devDependencies": {
@@ -55,7 +54,6 @@
         "@babel/core": "^7.7.4",
         "@babel/preset-env": "^7.7.4",
         "@babel/register": "^7.7.4",
-        "c8": "^7.13.0",
         "chai": "^4.3.7",
         "copy-webpack-plugin": "^11.0.0",
         "cross-env": "^7.0.3",
