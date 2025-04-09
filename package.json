@@ -1,50 +1,20 @@
 {
     "name": "@l2030/spreadsheet-ce",
     "title": "The Javascript Spreadsheet",
-    "description": "Jspreadsheet is a lightweight, vanilla javascript plugin to create amazing web-based interactive data grids with spreadsheet like controls compatible with Excel, Google Spreadsheets and any other spreadsheet software.",
+    "description": "...",
     "repository": {
         "type": "git",
         "url": "https://github.com/vblegend/jspreadsheet-ce.git"
     },
     "author": {
-        "name": "Contact <contact@jspreadsheet.com>"
+        "name": "Hanks"
     },
     "keywords": [
         "spreadsheet",
-        "spreadsheets",
-        "tables",
         "table",
         "excel",
-        "grid",
         "data grid",
-        "data tables",
-        "javascript data grid",
-        "javascript spreadsheet",
-        "data spreadsheet",
-        "react",
-        "grid",
-        "datagrid",
-        "reactjs",
-        "react-component",
-        "angular",
-        "data-grid",
-        "vue",
-        "csv",
-        "datatable",
-        "vuejs",
-        "angular-component",
-        "javascript",
-        "data-table",
-        "web-components",
-        "xlsx",
-        "react-table",
-        "sheets",
-        "sheet",
-        "export",
-        "markdown",
-        "parser",
-        "xls",
-        "datasheet"
+        "data tables"
     ],
     "dependencies": {
         "jsuites": "^5.8.5"
@@ -76,10 +46,9 @@
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "version": "5.0.1",
-    "bugs": "https://github.com/jspreadsheet/ce/issues",
-    "homepage": "https://github.com/jspreadsheet/ce",
-    "download": "https://github.com/jspreadsheet/ce/archive/master.zip",
+    "version": "5.0.2",
+    "bugs": "https://github.com/vblegend/jspreadsheet-ce/issues",
+    "homepage": "https://github.com/vblegend/jspreadsheet-ce",
     "scripts": {
         "format": "npm run prettier:fix && npm run lint:fix",
         "lint": "eslint .",

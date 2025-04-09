@@ -11,3 +11,10 @@ test
 build.cjs
 mocha.config.cjs
 webpack.config.cjs
+.vscode
+contributing.md
+mocha.config.js
+webpack.config.js
+
+
+
